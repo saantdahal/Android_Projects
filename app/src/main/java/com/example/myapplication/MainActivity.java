@@ -126,7 +126,6 @@ public class MainActivity extends AppCompatActivity {
         outState.putInt("player2Points", player2Points);
         outState.putBoolean("player1Turn", player1Turn);
     }
-
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);

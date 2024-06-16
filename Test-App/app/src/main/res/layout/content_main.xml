@@ -17,4 +17,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="20dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
